@@ -3,8 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>jyp's personal website</title>
+<!-- when you set border=none, you have to add height-->
+    <link rel="stylesheet" href="css/style.css">
+
   </head>
-  <body>
+  <body>  <!-- use CSS to set the background color-->
     <table cellspacing="10">
       <tr>
         <td><img src="pictures/8D72565C-500A-4B72-903A-3EB5002F806D.png" alt="the image is broken"></td>
@@ -12,17 +15,17 @@
           <h1>
           Yuepeng Jiang
           </h1>
-          <p>
+          <p class="jyp">
           <em>Undergraduate student in <Strong><a href="http://www.zju.edu.cn">ZJU</a></Strong></em><br>
           <em><a download href="https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf">download not navigate</a></em> <!-- download attribute can only apply to 同源文件-->
         </p>
-        <p>I love excercising and violin</p></td>
+        <p id="p">I love excercising and violin</p></td>
       </tr>
     </table>
 
     <!-- src means source and alt is alternetive it will print when cant get the src picture -->
 
-    <hr size="3" noshade>   <!-- no shade   -->
+    <hr>   <!-- no shade   -->
     <h3>Education</h3>
     <ul>        <!-- unordered list of items  -->
       <li>Xili primary school</li>
@@ -51,7 +54,7 @@
         <td>★★</td>
       </tr>
     </table>
-    <hr size="3" noshade>
+    <hr>
     <h3><a href="contact.html">Contact</a></h3>
     <table>
       <thead>

@@ -1,0 +1,51 @@
+body {
+  text-align: center;     /* 即xx对齐 */
+  margin: 0;
+  /* background-color:#d3f6f3; */
+  /* font-family: "Arial Black","Arial Bold",Gadget,sans-serif;   /* if the first one can not shown in current browser then show the next */
+                                                                /*and so on */
+}
+
+h1 {
+  font-family: 'Indie Flower', cursive;    /* just imbed if has not this style, so every one can see this*/
+  font-size:4rem;    /* em and % is dynamic, when you change the test to large or small then it will change
+                    px is static and will not change. recommend rem, dynamic and r means root(em and % will be influenced by parent font size)*/
+  margin-bottom: 0;
+  color:#66BFBF;
+
+  font-weight: bold;
+}
+#a {
+  font-size: 1.5rem;
+  /* color:#66BFBF; */
+  font-weight:lighter;   /* whether the weight will function depends on the font-family you used*/
+}
+
+.top-container {
+  position: relative;
+  padding: 70px;
+  background-color:#d3f6f3;
+}
+
+#top-cloud {
+  position: relative;
+  left:300px;
+}
+
+#bottom-cloud {
+  position: absolute;
+  top:260px;
+  left:280px;
+}
+
+.skillrow {
+  width:50%;
+  margin: 30px auto 100px auto;
+}
+
+#violin {
+  width:25%;
+  float: left;   /* don't use this to position just use it for wrapping text and make it better*/
+                /* clear is anti-float */
+  margin-right:30px;
+}

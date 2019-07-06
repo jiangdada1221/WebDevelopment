@@ -1,0 +1,46 @@
+body {
+  background-color: #caf2d7;
+}
+
+hr {
+
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 10%;
+
+}
+
+h1 {
+  background-color: black;
+  color: red;
+}
+
+h1:hover {
+  background-color: gold;
+}
+
+h3 {
+  color : blue;
+}
+
+/* class selection */
+.jyp {
+  background-color: blue;
+  color:green;
+}
+.jyp:hover {
+  background-color: gold;
+}
+          /* difference between class and id is that id should be unique; class can be a group */
+          /* what's more is that one object can belong to more than one class! */
+/* id selection */
+/* #p :hover{
+  background-color: red;
+
+}
+
+#p :hover {
+  color : gold;
+} */

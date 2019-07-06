@@ -1,0 +1,58 @@
+
+.top {
+  display: inline-block;   /*inline-block means that can be in the same line,and have own width and height */
+  background-color: blue;
+  position: absolute;    /* absolute can put it anywhere in closest parent(which is body now and should be relative) and seems like it
+                            is deleted from body(once you do this, the next element will take its place) */
+  width:100px;          /* position-fixed means stay in where it is when scrolling */
+  height:100px;
+  left:100px;
+  top:200px;
+
+}              /* use margin auto to center; text-align:center used in parent can only center those dont have width; */
+
+.middle {
+  display: inline-block;
+  background-color:red;
+  width:100px;
+  height:100px;
+  position:relative;  /* position relative , other things would not be influenced, and just displayed on it  */
+  left:220px;
+}
+
+.bottom {
+
+  background-color:yellow;
+  height:100px;
+  width:100px;
+  margin: auto;       /* auto can put things in center horizontally */
+}
+body {
+  margin:0;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+/* .top {
+  width:200px;
+  height: 200px;
+  border:solid 10px;
+  padding: 20px;
+}
+
+.middle {
+  width: 200px;
+  height: 200px;
+  border: solid 20px;
+  margin-left: 260px;
+
+}
+
+.bottom {
+  width: 200px;
+  height: 200px;
+  border: solid 10px;
+  margin-left: 500px;
+} */
