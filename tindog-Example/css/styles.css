@@ -1,0 +1,179 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+h1 {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 3.5rem;
+  list-style: 1.5;
+}
+
+.container-fluid {
+  padding: 5% 15% 8% 15%;
+}
+
+.navbar {
+  padding-left: 0;
+  padding-bottom: 3rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.download1 {
+  margin: 5% 3% 0 3%;
+}
+
+.titleImage {
+  width: 60%;
+  transform: rotate(25deg);
+  margin-left: 13%;
+  position: absolute;
+}
+
+/* middle */
+#features {
+  text-align: center;
+  padding: 7% 15%;
+  position: relative;
+}
+
+.h {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.pInFeature {
+  color: #8f8f8f;
+}
+
+.icon2 {
+  color: #ef8172;
+  /* margin:0 50%; */
+  font-size: 45px;
+  margin-top: 8%;
+}
+
+.icon2:hover {
+  color: #bb1542;
+}
+
+/* .con2 {
+  padding-left: 10%;
+  padding-right:10%;
+
+} */
+/* testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+h2 {
+  line-height: 2;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 160%;
+}
+
+.test-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  margin: 0;
+  text-align: center;
+}
+
+.press-image {
+  width: 13%;
+  /* margin:0 2%; */
+  margin: 2rem 1.2rem;
+}
+
+.carousel-item {
+  padding: 6% 16%;
+  height: 25rem;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pc {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1085px) {
+  .titleImage {
+    position: static;
+    transform: rotate(0);
+    margin: 20px auto 0 auto;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+@media (max-width:510px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  .download1 {
+    margin: 5% 1% 0 1%;
+  }
+}
+
+/* lastpart */
+#cta {
+  background-color: #ff4c68;
+  padding: 5% 15%;
+  text-align: center;
+}
+
+.lastH {
+  font-family: 'Montserrat-Black', sans-serif;
+  color: #fff;
+  margin-bottom: 5%;
+  font-weight: 900;
+}
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+}
+
+.footer-icon {
+  margin: 7% 1% 2% 1%;
+}
+
+.lastP {
+  color: grey;
+}
